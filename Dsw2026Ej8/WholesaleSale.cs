@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Dsw2026Ej8
+﻿namespace Dsw2026Ej8
 {
-    internal class WholesaleSale
+    public class WholesaleSale : Sale
     {
+        public override decimal CalculateTotal()
+        {
+            return Monto * 0.90m;
+        }
     }
 }
