@@ -4,7 +4,7 @@
     {
         public string NormalizarCodigoProducto(string code)
         {
-            return code.ProductoCodigo();
+            return code.ToProductCode();
         }
     }
 }
