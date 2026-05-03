@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class ProductHelper
+    public partial class ProductHelper
     {
+        private string FormatearPrecioComoMoneda(decimal price)
+        {
+            return price.ToString("C");
+        }
     }
 }
